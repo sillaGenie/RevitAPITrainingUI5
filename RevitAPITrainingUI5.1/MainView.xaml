@@ -1,0 +1,25 @@
+﻿<Window x:Class="RevitAPITrainingUI5.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RevitAPITrainingUI5"
+             mc:Ignorable="d" 
+             Height="100" Width="150"
+        Title="5.1">
+    <StackPanel>
+
+        <!--<ComboBox ItemsSource="{Binding PipeSystems}"
+                  SelectedValue="{Binding SelectedPipesSystem}"
+                  DisplayMemberPath="Name"
+                  Margin="5"/>
+        <Button Content="Применить"
+                Command="{Binding SaveCommand}"/>-->
+        <Button Content="Количество труб"
+                Command="{Binding PipesCount}"/>
+        <Button Content="Объем стен"
+                Command="{Binding WallsValue}"/>
+        <Button Content="Количество дверей"
+                Command="{Binding DoorsCount}"/>
+    </StackPanel>
+</Window>
